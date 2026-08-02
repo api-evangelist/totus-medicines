@@ -1,0 +1,15 @@
+# security.txt file for https://www.totusmedicines.com/ - more info: https://securitytxt.org/
+# (required) Contact email address for security issues
+Contact: dev+totus@onedesigncompany.com
+
+# (required) Expiration date for the security information herein
+Expiration: 2026-07-21T13:31:39-04:00
+
+# (optional) OpenPGP key:
+Encryption: https://www.totusmedicines.com/pgp-key.txt
+
+# (optional) Security policy page:
+Policy: https://www.totusmedicines.com/security-policy
+
+# (optional) Security acknowledgements page:
+Acknowledgements: https://www.totusmedicines.com/hall-of-fame

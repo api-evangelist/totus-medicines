@@ -1,7 +1,30 @@
 aid: totus-medicines
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/totus-medicines.png
 name: Totus Medicines
-description: Totus Medicines is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Totus Medicines is a biopharmaceutical company developing precision oral
+  medicines against historically "undruggable" disease targets. The company's
+  OmniDEL discovery platform screens targets in their normal cellular
+  environment to identify potent, selective covalent small molecules, drawing on
+  precedents like penicillin and AZT. Totus is advancing a pipeline focused on
+  oncology and immunology & inflammation (I&I), including TOS-358, a covalent
+  PI3Ka inhibitor, and a first-in-class covalent IRF5 inhibitor in clinical
+  development. Headquartered in Emeryville, California, Totus was surfaced as a
+  portfolio company of DCVC and profiled in the API Evangelist network. As a
+  clinical-stage drug-discovery company, Totus publishes no public developer API
+  surface; this profile captures its corporate identity, web properties, and
+  security posture.
 url: https://raw.githubusercontent.com/api-evangelist/totus-medicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,57 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biopharmaceutical
+- Drug Discovery
+- Covalent Small Molecules
+- Oncology
+- Immunology
+- Precision Medicine
+- Biotechnology
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/totus-medicines-vulnerability-disclosure.yml
+- type: Security
+  url: security/totus-medicines-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/totus-medicines-domain-security.yml
+- type: Website
+  url: https://www.totusmedicines.com/
+- type: About
+  url: https://www.totusmedicines.com/about-us
+- type: Platform
+  url: https://www.totusmedicines.com/platform
+- type: Pipeline
+  url: https://www.totusmedicines.com/pipeline
+- type: News
+  url: https://www.totusmedicines.com/news
+- type: Partnerships
+  url: https://www.totusmedicines.com/partnerships
+- type: Support
+  url: https://www.totusmedicines.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.totusmedicines.com/privacy-policy
+- type: Careers
+  url: https://boards.greenhouse.io/totusmedicines
+- type: LinkedIn
+  url: https://www.linkedin.com/company/totusmedicines
+- type: Twitter
+  url: https://twitter.com/Totus_Medicines
+- type: SecurityTxt
+  url: well-known/totus-medicines-security.txt
+- type: WellKnown
+  url: well-known/totus-medicines-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
